@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+
+@keyframes bgcolor {
+    0% {
+        background-color: red
+    }
+
+    16% {
+        background-color: orange
+    }
+
+    32% {
+        background-color: yellow
+    }
+
+    48% {
+        background-color: green
+    }
+
+    64% {
+        background-color: blue
+    }
+
+    80% {
+        background-color: indigo
+    }
+
+    96% {
+        background-color: violet
+    }
+
+    
+}
+
+div.rainbow {
+    width: 100vw;
+    height: 100vh;
+    -webkit-animation: bgcolor 4s infinite;
+    animation: bgcolor 2s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    text-align: center;
+}
+
+video{
+    margin-top: 5%;
+    height: 72.5%;
+    width: 65%;
+    border: 5px solid white;
+
+}
